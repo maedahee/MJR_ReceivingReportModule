@@ -1,0 +1,109 @@
+/* ReportPage.css */
+
+/* Page Layout */
+.report-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #2d3e50;
+    padding: 1rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-button {
+    margin-right: 1rem;
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .header-title {
+    margin: 0;
+  }
+  
+  .profile-icon {
+    margin-left: auto;
+    font-size: 1.5rem;
+  }
+  
+  /* Main Content */
+  .main-content {
+    padding: 1rem;
+  }
+  
+  .section {
+    margin-bottom: 1rem;
+  }
+  
+  .section-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-box {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .divider {
+    margin: 2rem 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Data Table */
+  .data-table {
+    width: 10%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .data-row {
+    background-color: #f9f9f9;
+  }
+  
+  .status-icon {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  
+  /* Footer Buttons */
+  .footer-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .footer-button {
+    background-color: #2d3e50;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .footer-button:hover {
+    background-color: #3c4f63;
+  }
+  
+  .arrow-icon {
+    margin-left: 0.5rem;
+  }
+  
